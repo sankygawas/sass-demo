@@ -1,0 +1,93 @@
+@import "Base/_base.settings";
+@import "Base/_base.fonts";
+@import "Base/_base.pallete";
+@import "Base/_base.mixins";
+
+
+body
+{
+    // Set line heights
+    line-height: $base-line-height;
+
+    // Set default font weights
+    font-weight: $font-weight-normal;
+    background-color: $color1;
+    color:$color4;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    // Set heading font weights
+    font-weight: $font-weight-heading;
+    line-height: $spacing-normal;
+    padding:10px;
+}
+
+// Set heading sizes
+h1 { font-size: $header-size-1*1.3; }
+h2 { font-size: $header-size-2; }
+h3 { font-size: $header-size-3; }
+h4 { font-size: $header-size-4; }
+h5 { font-size: $header-size-5; }
+h6 { font-size: $header-size-6; }
+
+/*
+#headings{
+   // color:$header-color;
+    
+}
+
+h1{
+//font-size: $header-font-size;
+}
+h2{
+//font-size: $header-font-size;
+} */
+
+/* $main-bg-color:#eee;
+body{
+    background-color: $main-bg-color;
+} */
+
+
+a{
+    color:$color2;
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+
+ul{
+    padding-left:2px;
+    li{
+        padding-left:$spacing-normal;
+        div{
+            color:black;
+        }
+    }
+}
+
+
+blockquote{
+    margin-left: $spacing-largest;
+    border-left:solid 2px $color2;
+    padding-left:$spacing-small;
+}
+
+
+.box{
+    background-color: $color5;
+    padding:$spacing-small;
+    > p{
+        padding:0px;
+        margin:0;
+    }
+}
+
+.rounded-box
+{
+    @extend .box;
+    margin:$spacing-smaller;
+    @include vendor(border-radius,$spacing-small);
+}

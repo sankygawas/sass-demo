@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700");
+body {
+  font-family: 'Quicksand', sans-serif; }
+
+body {
+  line-height: 34px;
+  font-weight: 400;
+  background-color: #2b252a;
+  color: #edf1ff; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  line-height: 34px;
+  padding: 10px; }
+
+h1 {
+  font-size: 46.8px; }
+
+h2 {
+  font-size: 27px; }
+
+h3 {
+  font-size: 24.3px; }
+
+h4 {
+  font-size: 21.6px; }
+
+h5 {
+  font-size: 18px; }
+
+h6 {
+  font-size: 16.2px; }
+
+/*
+#headings{
+   // color:$header-color;
+    
+}
+
+h1{
+//font-size: $header-font-size;
+}
+h2{
+//font-size: $header-font-size;
+} */
+/* $main-bg-color:#eee;
+body{
+    background-color: $main-bg-color;
+} */
+a {
+  color: #ff47e3; }
+  a:hover {
+    text-decoration: none; }
+
+ul {
+  padding-left: 2px; }
+  ul li {
+    padding-left: 34px; }
+    ul li div {
+      color: black; }
+
+blockquote {
+  margin-left: 102px;
+  border-left: solid 2px #ff47e3;
+  padding-left: 17px; }
+
+.box, .rounded-box {
+  background-color: #6a0dad;
+  padding: 17px; }
+  .box > p, .rounded-box > p {
+    padding: 0px;
+    margin: 0; }
+
+.rounded-box {
+  margin: 11.33333px;
+  -webkit-border-radius: 17px;
+  -moz-border-radius: 17px;
+  -ms-border-radius: 17px;
+  border-radius: 17px; }
